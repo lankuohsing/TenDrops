@@ -1,0 +1,16 @@
+form_load()
+{
+    Image img1=Image.FromFile(@"\images\Button_min_highlightBackground1.bmp");
+    Image img2=Image.FromFile(@"\images\Button_min_highlightBackground2.bmp");
+    Image img3=Image.FromFile(@"\images\Button_min_highlightBackground3.bmp");
+
+picturebox1.image=img1;
+}
+picturebox1_mouseover()
+{
+picturebox1.image=img2;
+}
+picturebox1_mousedown()
+{
+picturebox1.image=img3;
+}
